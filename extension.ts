@@ -20,7 +20,7 @@ if (Deno.args.length === 0) {
   Deno.exit(0);
 }
 
-import $ from "https://deno.land/x/dax/mod.ts";
+import $ from "https://deno.land/x/dax@0.35.0/mod.ts";
 import { toJson } from "https://deno.land/std@0.203.0/streams/mod.ts";
 
 if (Deno.args[0] === "list-processes") {
